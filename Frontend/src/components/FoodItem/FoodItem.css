@@ -6,6 +6,9 @@
     transition: 0.3s;
     animation: fadeIn 1s;
 }
+.food-item:hover{
+    transform: scale(1.05);
+}
 .food-item-image{
     width: 100%;
     border-radius: 15px 15px 0 0;
@@ -39,7 +42,7 @@
 .food-item-img-container{
     position: relative;
 }
-.food-item-img-container add{
+.food-item-img-container .add{
     width: 35px;
     bottom: 15px;
     position: absolute;
@@ -57,4 +60,7 @@
     padding: 6px;
     border-radius: 50px;
    background-color: white; 
+}
+.food-item-counter img{
+    width: 30px;
 }
