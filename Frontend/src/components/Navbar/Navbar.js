@@ -27,7 +27,7 @@ const Navbar = ({setShowLogin}) => {
                    <Link to='/food_order_app/cart'><img src={assets.basket_icon} alt=''/></Link> 
                   <div className={getTotalCartAmount===0 ? "":'dot'}></div>
                 </div>
-                <button onClick={()=>setShowLogin(true)}>Sign In</button>
+                <button onClick={()=>setShowLogin(true)}>Sign Up</button>
             </div>
 
     </div>
